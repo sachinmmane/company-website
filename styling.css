@@ -3,13 +3,33 @@ body {
 	font-family: Arvo, serif;
 	background: url(https://freenaturestock.s3.amazonaws.com/232.jpg) no-repeat center center;
 	background-attachment: fixed;
-	background-size: cover;
-	
+	background-size: cover;	
 }
 /*style brand images*/
+.logo {
+/*	position: left;*/
+	height: 35px;
+	width: 35px;
+	
+}
 
-/*styele navigation bar*/
+/*styele navigation bard*/
+.navbar-inverse {
+	background: rgba(0, 0, 0, 0.5)
+}
 
+.nav li {
+	color: #fff;
+	font-size: 17px;
+	margin-right: 35px;
+	padding: 10px 0;
+}
+
+.nav li:hover {
+	border-bottom: 1px solid #00FFB8;
+	padding-bottom: 9px;
+	cursor: pointer;
+}
 /*style jumbotron*/
 
 /*limit the width of the icon section*/
